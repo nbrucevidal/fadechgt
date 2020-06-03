@@ -8,7 +8,7 @@
 
 
 
- 
+
 
 
 
@@ -17,7 +17,9 @@
 #twitter-btn {background-color:	#1DA1F2;border: none;}
 #twitch-btn {background-color: #4F3380;border: none;}
 
-
+#torneo {color:#8D8D8D}
+#premio {color: #8D8D8D}
+#contacto {color: #8D8D8D}
 
 p {font-family: 'Montserrat', sans-serif; font-weight:300;}
 
@@ -71,7 +73,7 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #ffff;
+  color: grey;
   ;
 }
 
@@ -187,7 +189,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    background: url('https://s1.1zoom.me/big0/348/Nissan_GT-R_R35_Nismo_2020_2019_White_Motion_566848_1280x851.jpg') black no-repeat center center scroll;
   }
   header video {
     display: none;
