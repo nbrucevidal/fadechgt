@@ -36,11 +36,7 @@ html {
     height:auto;
 }
 
-#sponsors {
-  max-width:60%;
-    height:auto;
-   
-}
+
 
 body {
   font-family: font-family: 'Montserrat', sans-serif;
@@ -189,7 +185,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('https://s1.1zoom.me/big0/348/Nissan_GT-R_R35_Nismo_2020_2019_White_Motion_566848_1280x851.jpg') black no-repeat center center scroll;
+    background: url('https://i.ibb.co/Rg0XTxx/background.jpg') black no-repeat center center scroll;
   }
   header video {
     display: none;
