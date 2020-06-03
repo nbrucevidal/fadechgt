@@ -138,7 +138,7 @@ body {
   #mainNav.navbar-shrink .nav-link.active {
     color: #64a19d;
     outline: none;
-    border-bottom: 0.25rem solid steelblue;
+    border-bottom: 0.25rem solid #FF3300;
   }
 }
 
@@ -194,45 +194,7 @@ header .overlay {
 
 
 
-.about-section {
-  padding-top: 7rem;
-  background:rgba(0,0,0,1);
-}
 
-.about-section p {
-  margin-bottom: 5rem;
-}
-
-.dataviz-section {
-  padding: 7rem 0;
-}
-
-.dataviz-section .featured-text {
-  padding: 2rem;
-}
-
-@media (min-width: 992px) {
-  .dataviz-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid orange;
-  }
-}
-
-.dataviz-section .project-text {
-  padding: 3rem;
-  font-size: 90%;
-}
-
-@media (min-width: 992px) {
-  .dataviz-section .project-text {
-    padding: 5rem;
-  }
-  .dataviz-section .project-text hr {
-    border-color: orange;
-    border-width: .25rem;
-    width: 30%;
-  }
-}
 
 
 
