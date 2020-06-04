@@ -56,21 +56,24 @@ body {
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #ffffff !important;
 }
 
 /* DEFINICIONES PARA EL MENÚ */
 
+
+
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
+ 
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: rgb(255, 255, 255);
-  ;
+  color: rgb(255, 248, 248);
+  
 }
 
 #mainNav .navbar-toggler:focus {
@@ -78,7 +81,7 @@ body {
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color: #ffffff;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -92,7 +95,17 @@ body {
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
+  
+
 }
+
+
+
+
+
+
+
+
 
 @media (min-width: 992px) {
   #mainNav {
