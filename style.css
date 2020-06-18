@@ -37,7 +37,7 @@ html {
 }
 
 
-
+#logitechlogo {max-width: 150%;}
 
 
 .info {
@@ -51,10 +51,11 @@ html {
 }
 
 
+/* fondo */
 
-
-
-
+body, html {
+  height: 100%;
+}
 
 
 
