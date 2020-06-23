@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   
+<link rel="icon" href="media/race.png" sizes="16x16" type="image/png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    
+    <title>Pre Clasificación │ Speed Masters</title>
+    
+
+    
+    <!-- COMMON TAGS -->
+<meta charset="utf-8">
+
+
+    -->
+
+    <!-- Vamos a buscar el CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Vamos a buscar el CSS de Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- Vamos por nuestro CSS, basado en https://startbootstrap.com/template-overviews/grayscale/ -->
+    <link href="style.css" rel="stylesheet">
+    <link href="tablas.css" rel="stylesheet">
+
+
+
+</head>
+
+<body id="page-top" style="background-image: url('https://i.ibb.co/3SZc3xL/fondo-concreto.jpg')">
+  <div class="container">
+    <div class="row">
+  <div class="col-md-12">
+    <h1 class="text-white mb-4 pb-5">Pre Clasificación</h1>
+  </div>
+  </div></div>
+
+    <div id="tabla" class="container" class="table-responsive-sm">
+    <table id="switch-hitters"  class="table table-hover table-dark" style="color:aliceblue;" style="overflow-x:auto;"></table>
+
+  </div>
+
+
+
+
+<!-- Load jQuery and Sheetrock from CDNJS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/1.1.4/dist/sheetrock.min.js"></script>
+
+
+
+<script>
+    // Sheetrock.js 1.0 Example 2
+    // https://chriszarate.github.io/sheetrock/
+    
+    // Let’s look at switch hitters and rank them by batting average. 
+    // We’ll only grab the columns we care about and fetch just the 
+    // top ten to help focus the reader’s attention.
+    
+    // Define spreadsheet URL.
+    var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/1f7TEyKD2nyrBjRsQfokFMH1gGADyQiZf8WFKXFPSIcc/edit#gid=0';
+    
+    // Load top ten switch hitters.
+    $('#switch-hitters').sheetrock({
+      url: mySpreadsheet,
+      query: "select A,B,C,D,E",
+      fetchSize: 101
+    });
+    
+</script>
+
+
+
+</body>
+
+</html>

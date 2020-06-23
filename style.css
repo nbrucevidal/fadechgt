@@ -59,10 +59,6 @@ body, html {
 
 
 
-
-
-
-
 body {
   font-family: font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.05em;
@@ -85,6 +81,13 @@ body {
 #torneo {padding-top: 10rem;}
 #premio {padding-top: 10rem; padding-bottom: 10rem;}
 #faq {padding-top: 10rem; padding-bottom: 10rem;}
+#sponsors {padding-bottom: 10rem;}
+
+
+
+
+#cartaig {max-width: 50%;}
+
 
 
 
@@ -130,6 +133,7 @@ body {
 
 
 
+
 @media (min-width: 992px) {
   #mainNav {
     padding: 1rem 1.5rem;
@@ -137,6 +141,7 @@ body {
     background-color: black;
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
+    
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
@@ -165,6 +170,49 @@ body {
   }
 
 }
+
+
+/* Drop Down */
+
+@media (min-width: 992px){
+  
+  
+  
+  
+  .dropdown-menu .dropdown-toggle:after{
+    border-top: .3em solid transparent;
+      border-right: 0;
+      border-bottom: .3em solid transparent;
+      border-left: .3em solid;
+      
+      
+  }
+
+  .dropdown-menu .dropdown-menu{
+    margin-left:0; margin-right: 0;
+  }
+
+  .dropdown-menu li{
+    position: relative;
+  }
+  .nav-item .submenu{ 
+    display: none;
+    position: absolute;
+    left:100%; top:-7px;
+  }
+  .nav-item .submenu-left{ 
+    right:100%; left:auto;
+  }
+
+  .dropdown-menu > li:hover{ background-color: #f1f1f1 }
+  .dropdown-menu > li:hover > .submenu{
+    display: block;
+  }
+
+
+}
+
+
 
 /* DEFINICIONES PARA EL ESPACIO QUE CONTIENE EL VIDEO, TÍTULO Y SUBTÍTULO */
 
@@ -210,10 +258,17 @@ header .overlay {
 @media (pointer: coarse) and (hover: none) {
   header {
     background: url('https://i.ibb.co/Rg0XTxx/background.jpg') black no-repeat center center scroll;
-  }
+    padding-top: 4rem;
+    height: 130%;
+      }
   header video {
     display: none;
+    
   }
+
+  #fadech_logo {max-width: 50%;};}
+
+
 }
 
 
