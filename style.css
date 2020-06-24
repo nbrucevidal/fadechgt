@@ -9,23 +9,23 @@
 
 #inscripcion {background-color: #FF3300; border:none;font-family: 'Bebas Neue', normal;}
 #discord {font-family: 'Bebas Neue', normal;}
-#insta-btn {background-color: #F8636D; border: none;font-family: 'Bebas Neue', normal;}
-#fb-btn {background-color: #41599A;border: none;font-family: 'Bebas Neue', normal;}
-#twitter-btn {background-color:	#1DA1F2;border: none;font-family: 'Bebas Neue', normal;}
-#twitch-btn {background-color: #4F3380;border: none;font-family: 'Bebas Neue', normal;}
+
 
 
 #torneo {color:#8D8D8D}
 #premio {color: #8D8D8D}
 #contacto {color: #8D8D8D}
 
+
+
+
 p {font-family: 'Open Sans', sans-serif; font-weight:300;}
 
-.titular { font-weight:800; }
- h1 {font-family: 'Bebas Neue', sans-serif; font-weight:800; font-size:24px; font-size:3.5rem;}
- h2 {font-family: 'Bebas Neue', sans-serif; font-weight:800; }
- h3 {font-family: 'Bebas Neue', sans-serif; font-weight:800; }
- h4 {font-family: 'Bebas Neue', sans-serif; font-weight:800; }
+.titular { font-weight:400; }
+ h1 {font-family: 'Bebas Neue', sans-serif; font-weight:400; font-size:24px; font-size:3.5rem }
+ h2 {font-family: 'Bebas Neue', sans-serif; font-weight:400; }
+ h3 {font-family: 'Bebas Neue', sans-serif; font-weight:400; }
+ h4 {font-family: 'Bebas Neue', sans-serif; font-weight:400; }
 
 html {
   scroll-behavior: smooth;
@@ -58,12 +58,12 @@ body, html {
 }
 
 
-
 body {
   font-family: font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.05em;
   font-size:300;
   background-color: black;
+  
 }
 
 
@@ -86,7 +86,6 @@ body {
 
 
 
-#cartaig {max-width: 50%;}
 
 
 
