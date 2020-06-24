@@ -7,8 +7,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
 
 
-#inscripcion {background-color: #FF3300; border:none;font-family: 'Bebas Neue', normal;}
-#discord {font-family: 'Bebas Neue', normal;}
+#inscripcion {background-color: #FF3300; border:none;}
+
 
 
 
@@ -16,23 +16,25 @@
 #premio {color: #8D8D8D}
 #contacto {color: #8D8D8D}
 
-
+#footer {background-color: #000000}
 
 
 p {font-family: 'Open Sans', sans-serif; font-weight:300;}
 
-.titular { font-weight:400; }
+
  h1 {font-family: 'Bebas Neue', sans-serif; font-weight:400; font-size:24px; font-size:3.5rem }
  h2 {font-family: 'Bebas Neue', sans-serif; font-weight:400; }
- h3 {font-family: 'Bebas Neue', sans-serif; font-weight:400; }
- h4 {font-family: 'Bebas Neue', sans-serif; font-weight:400; }
+ h3 {font-family: 'Open Sans', sans-serif; font-weight:300; }
+ h4 {font-family: 'Open Sans', sans-serif; font-weight:300; }
+ h5 {font-family: 'Open Sans', sans-serif; font-weight:300; }
+ h6 {font-family: 'Open Sans', sans-serif; font-weight:300; }
 
 html {
   scroll-behavior: smooth;
 }
 
-#fadech_logo {
-  max-width:100%;
+#logonav {
+  max-width:50%;
     height:auto;
 }
 
@@ -64,6 +66,7 @@ body {
   font-size:300;
   background-color: black;
   
+  
 }
 
 
@@ -78,10 +81,7 @@ body {
 .text-primary {
   color: #ffffff !important;
 }
-#torneo {padding-top: 10rem;}
-#premio {padding-top: 10rem; padding-bottom: 10rem;}
-#faq {padding-top: 10rem; padding-bottom: 10rem;}
-#sponsors {padding-bottom: 10rem;}
+
 
 
 
@@ -94,10 +94,11 @@ body {
 
 
 
+
 #mainNav {
   min-height: 56px;
   background-color: rgb(0, 0, 0);
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Open Sans', sans-serif; font-weight:300;
 }
 
 #mainNav .navbar-toggler {
@@ -135,7 +136,7 @@ body {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding: 1rem 1.5rem;
+    padding: 1.5rem;
     border-bottom: none;
     background-color: black;
     -webkit-transition: background-color 0.3s ease-in-out;
@@ -169,6 +170,14 @@ body {
   }
 
 }
+
+
+
+
+
+
+
+
 
 
 /* Drop Down */
