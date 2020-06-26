@@ -18,7 +18,16 @@
 
 }
 
-body { padding-top: 140px; }
+.switch-hitters {
+  word-wrap: break-word; 
+  table-layout:fixed;
+  width: 100%;
+}
+
+#table-top { padding-top: 150px; }
+
+
+
 
 
 }

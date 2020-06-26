@@ -4,30 +4,32 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap');
 
 
-#inscripcion {background-color: #FF3300; border:none;}
+#discord {background-color: #FF3300; border:none;}
+
+
+#fases-top  { padding-top: 150px; }
+#page-top
 
 
 
-
-#torneo {color:#8D8D8D}
-#premio {color: #8D8D8D}
 #contacto {color: #8D8D8D}
 
 #footer {background-color: #000000}
 
 
-p {font-family: 'Open Sans', sans-serif; font-weight:300;}
+p {font-family: 'Open Sans', sans-serif; font-weight:400; color: #d6d6d6}
 
 
  h1 {font-family: 'Bebas Neue', sans-serif; font-weight:400; font-size:24px; font-size:3.5rem }
  h2 {font-family: 'Bebas Neue', sans-serif; font-weight:400; }
- h3 {font-family: 'Open Sans', sans-serif; font-weight:300; }
- h4 {font-family: 'Open Sans', sans-serif; font-weight:300; }
- h5 {font-family: 'Open Sans', sans-serif; font-weight:300; }
- h6 {font-family: 'Open Sans', sans-serif; font-weight:300; }
+ h3 {font-family: 'Open Sans', sans-serif; font-weight:400; }
+ h4 {font-family: 'Open Sans', sans-serif; font-weight:600; color: #d6d6d6}
+ h5 {font-family: 'Open Sans', sans-serif; font-weight:400; }
+ h6 {font-family: 'Open Sans', sans-serif; font-weight:400; }
 
 html {
   scroll-behavior: smooth;
@@ -38,17 +40,18 @@ html {
     height:auto;
 }
 
+#rrss {padding-bottom: 5rem;}
 
 #logitechlogo {max-width: 150%;}
 
 
 .info {
   border-color: #00B8FC;
-  color: green;
+  color: rgb(54, 59, 54);
 }
 
 .info:hover {
-  background-color: #4CAF50;
+  background-color: #868686;
   color: white;
 }
 
@@ -56,7 +59,7 @@ html {
 /* fondo */
 
 body, html {
-  height: 100%;
+  height: 100%; 
 }
 
 
@@ -65,6 +68,8 @@ body {
   letter-spacing: 0.05em;
   font-size:300;
   background-color: black;
+  padding-bottom: 150px;
+   
   
   
 }
@@ -83,16 +88,7 @@ body {
 }
 
 
-
-
-
-
-
-
-
 /* DEFINICIONES PARA EL MENÚ */
-
-
 
 
 #mainNav {
@@ -130,8 +126,6 @@ body {
   
 
 }
-
-
 
 
 @media (min-width: 992px) {
@@ -178,8 +172,6 @@ body {
 
 
 
-
-
 /* Drop Down */
 
 @media (min-width: 992px){
@@ -217,7 +209,53 @@ body {
     display: block;
   }
 
+.dropdown-submenu {
+    position: relative;
+}
 
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
 }
 
 
@@ -228,7 +266,7 @@ header {
   position: relative;
   background-color: black;
   height: 100vh;
-  min-height: 25rem;
+  min-height: 50rem;
   width: 100%;
   overflow: hidden;
 }
@@ -267,20 +305,16 @@ header .overlay {
   header {
     background: url('https://i.ibb.co/Rg0XTxx/background.jpg') black no-repeat center center scroll;
     padding-top: 4rem;
-    height: 130%;
+    padding-bottom: 4rem;
+    height: 100%;
+    ;
       }
   header video {
     display: none;
     
   }
 
-  #fadech_logo {max-width: 50%;};}
-
-
-}
-
-
-
+ 
 footer {
   padding: 5rem 0;
 }
