@@ -7,9 +7,9 @@
  
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap');
 
-
+ 
 #discord {background-color: #FF3300; border:none;}
-
+#mail {background-color: #00B8FC; border:none;}
 
 #fases-top  { padding-top: 150px; }
 #page-top
@@ -27,8 +27,8 @@ p {font-family: 'Open Sans', sans-serif; font-weight:400; color: #d6d6d6}
  h1 {font-family: 'Bebas Neue', sans-serif; font-weight:400; font-size:24px; font-size:3.5rem }
  h2 {font-family: 'Bebas Neue', sans-serif; font-weight:400; }
  h3 {font-family: 'Open Sans', sans-serif; font-weight:400; }
- h4 {font-family: 'Open Sans', sans-serif; font-weight:600; }
- h5 {font-family: 'Open Sans', sans-serif; font-weight:400; }
+ h4 {font-family: 'Open Sans', sans-serif; font-weight:400; }
+ h5 {font-family: 'Bebas Neue', sans-serif; font-weight:400; }
  h6 {font-family: 'Open Sans', sans-serif; font-weight:400; }
 
 html {
@@ -266,7 +266,7 @@ header {
   position: relative;
   background-color: black;
   height: 100vh;
-  min-height: 50rem;
+  min-height: 55rem;
   width: 100%;
   overflow: hidden;
 }
