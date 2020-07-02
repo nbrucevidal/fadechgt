@@ -26,16 +26,20 @@
     <!-- Vamos por nuestro CSS, basado en https://startbootstrap.com/template-overviews/grayscale/ -->
     <link href="style.css" rel="stylesheet">
     <link href="tablas.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
+    <link href="infinite-slider.css" rel="stylesheet">
+    
 
 
 
 </head>
 
-
+  <!-- Tabla -->
 
 <body id="table-top" style="background-image: url('https://i.ibb.co/3SZc3xL/fondo-concreto.jpg')">
+    
  <!-- Navigation -->
- <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
   <div class="container ">
       <img class="menu-header__logo" src="media/logo-nav.png" id="logonav">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +50,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">                    
               <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="index.html#torneo">Torneo</a>
+                  <a class="nav-link js-scroll-trigger" href="index.html#campeonato">Campeonato</a>
               </li>                          
               <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" href="index.html#fases">Fases</a>
@@ -67,7 +71,12 @@
                     <li><a class="dropdown-item disabled" href="#"> Grupo D</a></li>
                     <li><a class="dropdown-item disabled" href="#"> Grupo E</a></li>
                     <li><a class="dropdown-item disabled" href="#"> Grupo F</a></li>
-                    <li><a class="dropdown-item disabled" href="#"> Grupo G</a></li>                          
+                    <li><a class="dropdown-item disabled" href="#"> Grupo G</a></li>
+                    <li><a class="dropdown-item disabled" href="#"> Grupo H</a></li> 
+                    <li><a class="dropdown-item disabled" href="#"> Grupo I</a></li> 
+                    <li><a class="dropdown-item disabled" href="#"> Grupo J</a></li> 
+                    <li><a class="dropdown-item disabled" href="#"> Grupo K</a></li>
+                    <li><a class="dropdown-item disabled" href="#"> Grupo L</a></li>                             
                  </ul>
                 </li>
                 <li ><a class="dropdown-item disabled" href="#"> Semi Final </a></li>
@@ -80,7 +89,7 @@
           </li>
 
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="MANUAL DE USUARIO SPEEDMASTERS.pdf">Manual</a>
+              <a class="nav-link js-scroll-trigger" href="Manual del Piloto — SpeedMasters v1.pdf">Manual</a>
           </li>         
                         
           </ul>
@@ -90,26 +99,23 @@
 
 <!-- End Navigation -->
   
-  
-  
   <div class="container">
     <div class="row">
-  <div class="col-md-12 pt-5">
-    <h1 class="text-white">Fase de Grupos</h1>
-    <h2 class="text-white">Grupo A<A></A></h2>
+  <div class="col-md-12">
+    <h1 class="text-white pt-5">Fase de Grupos</h1>
+    <h2 class="text-white">Grupo A</h2>
+    <p class="lead">Sáb. 25 Julio</p>
+    
   </div>
-  </div>
-</div>
+  </div></div>
 
-<br>
-<!-- Tabla -->
-    <div id="fasedegrupos" class="container" class="table-responsive-sm">
-      <div class="row">
-    <table id="switch-hitters"  class="table-sm table-hover table-dark" style="color:aliceblue;" style="overflow-x:auto;"></table>
-  </div>
+    <div id="tabla" class="container" class="table-responsive-sm">
+      <table class="table">
+    <table id="switch-hitters"  class="table table-hover table-dark" style="color:white;" style="overflow-x:auto;"></table>
+  </table>
   </div>
 
-<!-- Volver al inicio -->
+  <!-- Volver al inicio -->
   <div class="container text-right">
     <p class="lead">
     <a href="index.html" class="text-white">Volver al inicio </a>
@@ -118,156 +124,228 @@
   
   
   <br><br><br>
+<!-- Inicio RRSS -->
+<section id="rrss" class="about-section text-center">
+  <div class="container">
+      <h1 class="text-white mb-4 py-4">Sigue el campeonato en nuestras redes</h1>    
+     
+       
+   <div class="text-center col-md-12 col-lg-8 mx-auto">
+    <a href="https://www.twitter.com/movistargc" rel="tooltip" title="Twitter" class="btn btn-neutral btn-icon btn-twitter btn-round btn-lg" style="color: #FF3300">
+     <i class="fab fa-twitter fa-2x"></i></a>
+     
+     <a href="https://www.facebook.com/movistargameclub" rel="tooltip" title="Facebook" class="btn btn-neutral btn-icon btn-facebook btn-round btn-lg" style="color: #FF3300">
+       <i class="fab fa-facebook-square fa-2x"></i></a>
+       
+       <a href="https://instagram.com/movistargameclub" rel="tooltip" title="Instagram" class="btn btn-neutral btn-icon btn-instagram btn-lg btn-round" style="color: #FF3300">
+         <i class="fab fa-instagram fa-2x"></i></a>
+         
+         <a href="https://twitch.com/movistargameclub" rel="tooltip" title="Twitch" class="btn btn-neutral btn-icon btn-twitch btn-round btn-lg" style="color: #FF3300">
+           <i class="fab fa-twitch fa-2x"></i></a>   
+           
+           <a href="https://www.youtube.com/channel/UCRYj0exeAFYevTYRqz7ai0g" rel="tooltip" title="YouTube" class="btn btn-neutral btn-icon btn-youtube btn-round btn-lg" style="color: #FF3300">
+            <i class="fab fa-youtube fa-2x"></i></a>
+         
+         </div>           
+  </section> 
+    
   
-  <!-- Inicio RRSS -->
-  <section id="rrss" class="about-section text-center">
-    <div class="container">
-        <h1 class="text-white mb-4 py-4">Sigue el torneo en nuestras redes</h1>    
-       
-         
-     <div class="text-center col-md-12 col-lg-8 mx-auto">
-      <a href="https://www.twitter.com/movistargc" rel="tooltip" title="Twitter" class="btn btn-neutral btn-icon btn-twitter btn-round btn-lg" style="color: #FF3300">
-       <i class="fab fa-twitter fa-2x"></i></a>
-       
-       <a href="https://www.facebook.com/movistargameclub" rel="tooltip" title="Facebook" class="btn btn-neutral btn-icon btn-facebook btn-round btn-lg" style="color: #FF3300">
-         <i class="fab fa-facebook-square fa-2x"></i></a>
-         
-         <a href="https://instagram.com/movistargameclub" rel="tooltip" title="Instagram" class="btn btn-neutral btn-icon btn-instagram btn-lg btn-round" style="color: #FF3300">
-           <i class="fab fa-instagram fa-2x"></i></a>
-           
-           <a href="https://twitch.com/movistargameclub" rel="tooltip" title="Twitch" class="btn btn-neutral btn-icon btn-twitch btn-round btn-lg" style="color: #FF3300">
-             <i class="fab fa-twitch fa-2x"></i></a>       
-           
-             <a href="https://youtube.com" rel="tooltip" title="YouTube" class="btn btn-neutral btn-icon btn-youtube btn-round btn-lg" style="color: #FF3300">
-              <i class="fab fa-youtube fa-2x"></i></a>
-           </div>           
-    </section> 
+  
+  <!-- Partners Logos -->
+  
+  <section id="sponsors" class="about-section text-center" style="background-color: #343A40;">
+    
+  
+    <div class="container text-center">
+      <h5 class="text-white py-4">Organizan</h5> 
+    </div>
+    
+    <div class="container ">
+      <div class="row justify-content-md-center">
+        <div class="col"><img src="media/logos/fadech_logo.png" class="img-fluid" alt="Fadech"></div>
+        <div class="col"><img src="media/logos/fia_logo.png" class="img-fluid" alt="FIA"></div>      
+      </div>    
+    </div>
+  
+    <div class="container"><hr class="solid" style="border-color: white;"></div>
+    
+  
+  <div class="container text-center">
+    <h5 class="text-white py-4">Auspician</h5> 
+  </div>
+  
+  <div class="container">
+    <section class="customer-logos slider">
+      <div class="col"><img src="media/logos/logitech_logo.png" alt="Logitech"></div>
+      <div class="col"><img src="media/logos/movistar_logo.png" alt="Movistar"></div>
+      <div class="col"><img src="media/logos/bmw_logo.png" alt="BMW"></div>
+      <div class="col"><img src="media/logos/mrclick_logo.png" alt="Mr. Click"></div>
+      <div class="col"><img src="media/logos/rb-lola_logo.png" alt="Red Bull Lola"></div> 
+    </section>
+  </div>
+  
+  <div class="container"><hr class="solid" style="border-color: white;"></div>
+  
+  
+  <div class="container text-center">
+    <h5 class="text-white py-4">Media Partners</h5> 
+  </div>
+  
+  <div class="container ">
+    <div class="row justify-content-md-center">
+      <div class="col"><img src="media/logos/mgc_logo.png" class="img-fluid" alt="Movistar GameClub"></div>
+      <div class="col"><img src="media/logos/tarreo_logo.png" class="img-fluid" alt="Tarreo"></div>
+      <div class="col"><img src="media/logos/cdo_logo.png" class="img-fluid" alt="CDO"></div>  
+    </div>
+  </div>
+  
+  <div class="container"><hr class="solid" style="border-color: white;"></div>
+  
+  
+  <div class="container text-center">
+    <h5 class="text-white py-4">Produce</h5> 
+  </div>
+  
+  <div class="container ">
+    <div class="row">   
+      <div class="col mx-auto"><img src="media/logos/gameclub_logo.png" alt="GameClub"></div>    
+       </div>
+  </div>
+  
+  </section>
+  
+  
+  
+  
       
-        
-        
-        <!-- Footer --> 
-    
-    
-    <footer id="footer" class="py-4 bg-black text-white">
-      <div class="container text-left" id="contacto">
-        <div class="row">
-          <div class="col-sm-2">
-            <h5>FADECH 2020</h5>
-          </div>          
-          <div class="col-sm-4">
-            <i class="fas fa-home mr-3"></i> Ramón Cruz #1176 Oficina 501, Ñuñoa
-          </div>
-          <div class="col-sm-3">
-            <i class="fas fa-envelope mr-3"></i> contacto@fadech.cl
-          </div>
-          <div class="col-sm-3">
-            <i class="fas fa-phone mr-3"></i>(2) 22725339 / (2) 22729005
-          </div>
+      
+      <!-- Footer --> 
+  
+  
+  <footer id="footer" class="py-4 bg-black text-white">
+    <div class="container text-center" id="contacto">
+      <div class="row">
+        <div class="col-sm-4">
+          <p>FADECH 2020</p>
+        </div>          
+        <div class="col-sm-4">
+          <i class="fas fa-home mr-3"></i> Ramón Cruz #1176 Oficina 501, Ñuñoa
         </div>
-    
+        <div class="col-sm-4">
+          <i class="fas fa-envelope mr-3"></i> contacto@gameclub.cl
+        </div>
+        
       </div>
-    </footer>
-
-
-
-
-
-
-
-
-
-<!-- JAVASCRIPT -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/1.1.4/dist/sheetrock.min.js"></script>
-
-
-<!-- INICIO DROPDOWN -->
-<script src="js/bootnavbar.js" ></script>
- <script> 
-$('#navbar').bootnavbar();
-    </script>
-
-<!--ahora aprovechamos que Bootstrap necesita jQuery, para manipular el DOM-->
-<script>
-    (function($) {
-        "use strict"; // Start of use strict
-
-        $(".titular").text("Speed Masters │ Online Racing");
-    })(jQuery); // End of use strict
-</script>
-
-<!--el tema de bootstrap que usamos necesita este script para funcionar-->
-<script src="js/theme.js"></script>
-
-
-
-<script type="text/javascript">
-  /// some script
   
-  // jquery ready start
-  $(document).ready(function() {
-    // jQuery code
+    </div>
+  </footer>
   
-    //////////////////////// Prevent closing from click inside dropdown
-      $(document).on('click', '.dropdown-menu', function (e) {
-        e.stopPropagation();
-      });
   
-      // make it as accordion for smaller screens
-      if ($(window).width() < 992) {
-        $('.dropdown-menu a').click(function(e){
-          e.preventDefault();
-            if($(this).next('.submenu').length){
-              $(this).next('.submenu').toggle();
-            }
-            $('.dropdown').on('hide.bs.dropdown', function () {
-           $(this).find('.submenu').hide();
-        })
-        });
-    }
-    
-  }); // jquery end
-  </script>
-
-<!-- FIN DROPDOWN -->
-
-
-
-
-
-
   
+      <!-- JAVASCRIPT -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/1.1.4/dist/sheetrock.min.js"></script>
+
+
 
 <!-- J QUERY EXCEL: Load jQuery and Sheetrock from CDNJS -->
 
 
-
 <script>
-    // Sheetrock.js 1.0 Example 2
-    // https://chriszarate.github.io/sheetrock/
-    
-    // Let’s look at switch hitters and rank them by batting average. 
-    // We’ll only grab the columns we care about and fetch just the 
-    // top ten to help focus the reader’s attention.
-    
-    // Define spreadsheet URL.
-    var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/16bAZom9Ovw2POj95_c3dwkX4f3QJtm97bySQR2VY6PY/edit#gid=0';
-    
-    // Load top ten switch hitters.
-    $('#switch-hitters').sheetrock({
-      url: mySpreadsheet,
-      query: "select A,B,C,D,E,F,G,H,I,J,K,L,M,N,O",
-      fetchSize: 12
-    });
-    
+  // Sheetrock.js 1.0 Example 2
+  // https://chriszarate.github.io/sheetrock/
+  
+  // Let’s look at switch hitters and rank them by batting average. 
+  // We’ll only grab the columns we care about and fetch just the 
+  // top ten to help focus the reader’s attention.
+  
+  // Define spreadsheet URL.
+  var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/16bAZom9Ovw2POj95_c3dwkX4f3QJtm97bySQR2VY6PY/edit#gid=0';
+  
+  // Load top ten switch hitters.
+  $('#switch-hitters').sheetrock({
+    url: mySpreadsheet,
+    query: "select A,B,C,D,E,F,G,H,I,J,K,L,M,N,O",
+    fetchSize: 12
+  });
+  
 </script>
 
 
-
-</body>
-
-</html>
+      
+  <!-- INICIO DROPDOWN -->
+      <script src="js/bootnavbar.js" ></script>
+       <script> 
+      $('#navbar').bootnavbar();
+          </script>
+       
+  
+    
+  
+      <script type="text/javascript">
+        /// some script
+        
+        // jquery ready start
+        $(document).ready(function() {
+          // jQuery code
+        
+          //////////////////////// Prevent closing from click inside dropdown
+            $(document).on('click', '.dropdown-menu', function (e) {
+              e.stopPropagation();
+            });
+        
+            // make it as accordion for smaller screens
+            if ($(window).width() < 992) {
+              $('.dropdown-menu a').click(function(e){
+                e.preventDefault();
+                  if($(this).next('.submenu').length){
+                    $(this).next('.submenu').toggle();
+                  }
+                  $('.dropdown').on('hide.bs.dropdown', function () {
+                 $(this).find('.submenu').hide();
+              })
+              });
+          }
+          
+        }); // jquery end
+        </script>
+    
+   <!-- FIN DROPDOWN -->
+  
+  
+  <script>
+  $(document).ready(function(){
+    $('.customer-logos').slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [{
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 4
+        }
+      }, {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 2
+        }
+      }]
+    });
+  });
+  </script>
+  
+  
+  
+  
+      
+  </body>
+  
+  </html>
