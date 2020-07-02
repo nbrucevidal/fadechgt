@@ -26,7 +26,7 @@
     <!-- Vamos por nuestro CSS, basado en https://startbootstrap.com/template-overviews/grayscale/ -->
     <link href="style.css" rel="stylesheet">
     <link href="tablas.css" rel="stylesheet">
-    <link href="navbar.css" rel="stylesheet">
+ 
     <link href="infinite-slider.css" rel="stylesheet">
 
 
@@ -66,7 +66,7 @@
                 <a class="dropdown-item" href="tabla-preclasificacion.html">Pre Clasificación</a>
                 
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item"  href="#"> Fase de Grupos</a>
+                <a class="dropdown-item disabled"  href="#"> Fase de Grupos</a>
                 <a class="dropdown-item" href="tabla-fasedegrupos.html"> Grupo A</a>
                 <a class="dropdown-item disabled" href="#"> Grupo B</a>                          
                <a class="dropdown-item disabled" href="#"> Grupo C</a>
@@ -318,44 +318,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
      
       
-  <!-- INICIO DROPDOWN -->
-      <script src="js/bootnavbar.js" ></script>
-       <script> 
-      $('#navbar').bootnavbar();
-          </script>
-       
   
-    
-  
-      <script type="text/javascript">
-        /// some script
-        
-        // jquery ready start
-        $(document).ready(function() {
-          // jQuery code
-        
-          //////////////////////// Prevent closing from click inside dropdown
-            $(document).on('click', '.dropdown-menu', function (e) {
-              e.stopPropagation();
-            });
-        
-            // make it as accordion for smaller screens
-            if ($(window).width() < 992) {
-              $('.dropdown-menu a').click(function(e){
-                e.preventDefault();
-                  if($(this).next('.submenu').length){
-                    $(this).next('.submenu').toggle();
-                  }
-                  $('.dropdown').on('hide.bs.dropdown', function () {
-                 $(this).find('.submenu').hide();
-              })
-              });
-          }
-          
-        }); // jquery end
-        </script>
-    
-   <!-- FIN DROPDOWN -->
   
   
   <script>
